@@ -1,0 +1,1 @@
+to predict add /predict?id_client=100005 at the end of your link

@@ -1,0 +1,134 @@
+ * Serving Flask app "app.py" (lazy loading)
+ * Environment: development
+ * Debug mode: on
+ * Running on http://37.59.232.251:5000/ (Press CTRL+C to quit)
+ * Restarting with inotify reloader
+ * Debugger is active!
+ * Debugger PIN: 291-443-695
+/usr/local/lib/python3.8/dist-packages/sklearn/base.py:329: UserWarning: Trying to unpickle estimator LabelEncoder from version 0.22.2.post1 when using version 0.23.2. This might lead to breaking code or invalid results. Use at your own risk.
+  warnings.warn(
+90.2.33.92 - - [12/Mar/2022 18:14:27] "GET /predict?id_client=456202 HTTP/1.1" 200 -
+90.2.33.92 - - [12/Mar/2022 18:14:30] "GET / HTTP/1.1" 200 -
+/usr/local/lib/python3.8/dist-packages/sklearn/base.py:329: UserWarning: Trying to unpickle estimator LabelEncoder from version 0.22.2.post1 when using version 0.23.2. This might lead to breaking code or invalid results. Use at your own risk.
+  warnings.warn(
+/home/p7.1/api/app.py:58: Warning: Silently ignoring app.run() because the application is run from the flask command line executable.  Consider putting app.run() behind an if __name__ == "__main__" guard to silence this warning.
+  app.run()
+/home/p7.1/api/app.py:59: Warning: Silently ignoring app.run() because the application is run from the flask command line executable.  Consider putting app.run() behind an if __name__ == "__main__" guard to silence this warning.
+  app.run(debug=True)
+ * Serving Flask app "app.py"
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+/usr/local/lib/python3.8/dist-packages/sklearn/base.py:329: UserWarning: Trying to unpickle estimator LabelEncoder from version 0.22.2.post1 when using version 0.23.2. This might lead to breaking code or invalid results. Use at your own risk.
+  warnings.warn(
+/home/p7.1/api/app.py:55: Warning: Silently ignoring app.run() because the application is run from the flask command line executable.  Consider putting app.run() behind an if __name__ == "__main__" guard to silence this warning.
+  app.run()
+/home/p7.1/api/app.py:56: Warning: Silently ignoring app.run() because the application is run from the flask command line executable.  Consider putting app.run() behind an if __name__ == "__main__" guard to silence this warning.
+  app.run(debug=True)
+ * Running on http://37.59.232.251:5000/ (Press CTRL+C to quit)
+90.2.33.92 - - [12/Mar/2022 18:43:50] "GET / HTTP/1.1" 200 -
+90.2.33.92 - - [12/Mar/2022 18:44:14] "GET /predict?id_client=456202 HTTP/1.1" 200 -
+90.2.33.92 - - [12/Mar/2022 18:44:24] "GET / HTTP/1.1" 200 -
+90.2.33.92 - - [12/Mar/2022 18:44:32] "GET /predict?id_client=456202 HTTP/1.1" 200 -
+90.2.33.92 - - [12/Mar/2022 18:44:49] "GET /predict?id_client=100001 HTTP/1.1" 200 -
+90.2.33.92 - - [12/Mar/2022 18:45:01] "GET /predict?id_client=100129 HTTP/1.1" 200 -
+90.2.33.92 - - [12/Mar/2022 18:45:08] "GET / HTTP/1.1" 200 -
+90.2.33.92 - - [12/Mar/2022 18:45:30] "GET /predict?id_client=100066 HTTP/1.1" 200 -
+90.2.33.92 - - [12/Mar/2022 18:46:19] "GET /predict?id_client=454778 HTTP/1.1" 200 -
+90.2.33.92 - - [12/Mar/2022 18:46:26] "GET /predict?id_client=454779 HTTP/1.1" 200 -
+90.2.33.92 - - [12/Mar/2022 18:46:32] "GET /predict?id_client=454780 HTTP/1.1" 200 -
+90.2.33.92 - - [12/Mar/2022 18:46:37] "GET /predict?id_client=454781 HTTP/1.1" 200 -
+90.2.33.92 - - [12/Mar/2022 18:46:46] "GET /predict?id_client=454790 HTTP/1.1" 200 -
+90.2.33.92 - - [12/Mar/2022 18:47:05] "GET /predict?id_client=454789 HTTP/1.1" 200 -
+90.2.33.92 - - [12/Mar/2022 18:47:31] "GET /predict?id_client=456166 HTTP/1.1" 200 -
+90.2.33.92 - - [12/Mar/2022 18:47:45] "GET /predict?id_client=455803 HTTP/1.1" 200 -
+90.2.33.92 - - [12/Mar/2022 18:49:01] "GET /predict?id_client=100170 HTTP/1.1" 200 -
+90.2.33.92 - - [12/Mar/2022 18:50:38] "GET /predict?id_client=100170 HTTP/1.1" 200 -
+90.2.33.92 - - [12/Mar/2022 18:50:47] "GET /predict?id_client=456202 HTTP/1.1" 200 -
+90.2.33.92 - - [12/Mar/2022 18:50:56] "GET / HTTP/1.1" 200 -
+90.2.33.92 - - [12/Mar/2022 18:52:13] "GET /predict?id_client=456202 HTTP/1.1" 200 -
+90.2.33.92 - - [12/Mar/2022 18:52:37] "GET /predict?id_client=456202 HTTP/1.1" 200 -
+90.2.33.92 - - [12/Mar/2022 18:52:49] "GET /predict?id_client=100170 HTTP/1.1" 200 -
+90.2.33.92 - - [12/Mar/2022 18:53:53] "GET /predict?id_client=100170 HTTP/1.1" 200 -
+90.2.33.92 - - [12/Mar/2022 18:53:57] "GET /predict?id_client=100170 HTTP/1.1" 200 -
+ * Serving Flask app "app.py"
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+/usr/local/lib/python3.8/dist-packages/sklearn/base.py:329: UserWarning: Trying to unpickle estimator LabelEncoder from version 0.22.2.post1 when using version 0.23.2. This might lead to breaking code or invalid results. Use at your own risk.
+  warnings.warn(
+/home/p7.1/api/app.py:56: Warning: Silently ignoring app.run() because the application is run from the flask command line executable.  Consider putting app.run() behind an if __name__ == "__main__" guard to silence this warning.
+  app.run()
+/home/p7.1/api/app.py:57: Warning: Silently ignoring app.run() because the application is run from the flask command line executable.  Consider putting app.run() behind an if __name__ == "__main__" guard to silence this warning.
+  app.run(debug=True)
+ * Running on http://37.59.232.251:5000/ (Press CTRL+C to quit)
+[2022-03-12 18:54:08,316] ERROR in app: Exception on /predict [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.8/dist-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/p7.1/api/app.py", line 43, in predict
+    prediction = "Prêt NON Accordé"+probability_default_payment
+numpy.core._exceptions.UFuncTypeError: ufunc 'add' did not contain a loop with signature matching types (dtype('<U32'), dtype('<U32')) -> dtype('<U32')
+90.2.33.92 - - [12/Mar/2022 18:54:08] "GET /predict?id_client=100170 HTTP/1.1" 500 -
+90.2.33.92 - - [12/Mar/2022 18:54:14] "GET / HTTP/1.1" 200 -
+[2022-03-12 18:54:21,838] ERROR in app: Exception on /predict [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.8/dist-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/p7.1/api/app.py", line 43, in predict
+    prediction = "Prêt NON Accordé"+probability_default_payment
+numpy.core._exceptions.UFuncTypeError: ufunc 'add' did not contain a loop with signature matching types (dtype('<U32'), dtype('<U32')) -> dtype('<U32')
+90.2.33.92 - - [12/Mar/2022 18:54:21] "GET /predict?id_client=456202 HTTP/1.1" 500 -
+[2022-03-12 18:54:51,371] ERROR in app: Exception on /predict [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.8/dist-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/p7.1/api/app.py", line 43, in predict
+    prediction = "Prêt NON Accordé"
+numpy.core._exceptions.UFuncTypeError: ufunc 'add' did not contain a loop with signature matching types (dtype('<U32'), dtype('<U32')) -> dtype('<U32')
+90.2.33.92 - - [12/Mar/2022 18:54:51] "GET /predict?id_client=456202 HTTP/1.1" 500 -
+90.2.33.92 - - [12/Mar/2022 18:55:07] "GET /predict?id_client=100130 HTTP/1.1" 200 -
+ * Serving Flask app "app.py"
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+/usr/local/lib/python3.8/dist-packages/sklearn/base.py:329: UserWarning: Trying to unpickle estimator LabelEncoder from version 0.22.2.post1 when using version 0.23.2. This might lead to breaking code or invalid results. Use at your own risk.
+  warnings.warn(
+/home/p7.1/api/app.py:55: Warning: Silently ignoring app.run() because the application is run from the flask command line executable.  Consider putting app.run() behind an if __name__ == "__main__" guard to silence this warning.
+  app.run()
+/home/p7.1/api/app.py:56: Warning: Silently ignoring app.run() because the application is run from the flask command line executable.  Consider putting app.run() behind an if __name__ == "__main__" guard to silence this warning.
+  app.run(debug=True)
+ * Running on http://37.59.232.251:5000/ (Press CTRL+C to quit)
